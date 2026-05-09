@@ -40,7 +40,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 origins = [
     "http://localhost:5173",
-    "seniorguide.exameets.com"
+    "https://seniorguide.exameets.com"
 ]
 
 app.add_middleware(
